@@ -1,0 +1,12 @@
+ .input, textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  height: 34px;
+  width: 100%;
+  outline: none;
+}
+
+textarea {
+  min-height: 150px;
+}

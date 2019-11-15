@@ -5,7 +5,8 @@ process.env["NODE_CONFIG_DIR"] = __dirname + "/config/";
 const config = require('config');
 
 const db = config.get('mongoURI');
-const route = require('./routes/route');
+const items = require('./routes/items');
+const users = require('./routes/users');
 
 const app = express(); 
 
@@ -15,7 +16,8 @@ mongoose.connect(db)
 
 app.use(express.json());
 
-app.use('/route', route);
+app.use('/items', items);
+app.use('/users', users);
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
