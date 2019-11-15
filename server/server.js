@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const path = require('path');
 
 process.env["NODE_CONFIG_DIR"] = __dirname + "/config/";
 const config = require('config');
