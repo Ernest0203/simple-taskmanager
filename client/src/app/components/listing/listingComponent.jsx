@@ -7,7 +7,7 @@ import Sort from './sort.jsx';
 import Button from '../../../ui/button/button.jsx';
 
 const ListingComponent = (props) => {
-  const { modalToggle, data, fetchData, applyFilter,  sort, editItem, isAuthenticated, user, logout} = props;
+  const { modalToggle, data, fetchData, applyFilter,  sort, editItem, user, logout} = props;
  
   const loginNavBar = (
     user !== null
