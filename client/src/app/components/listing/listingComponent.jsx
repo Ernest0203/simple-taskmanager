@@ -22,7 +22,6 @@ const ListingComponent = (props) => {
     <div className={styles.container}>
       <div className={styles.header}>
         {loginNavBar}
-        {/* <Button text="Login" onClick={() => modalToggle('login')}/> */}
         <Button text="Add task" onClick={() => modalToggle('addItem')}/>
       </div>
       <div className={styles.main}>
