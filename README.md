@@ -14,7 +14,7 @@ npm run dev
 ## Watch project
 
 ```bash
-(https://desolate-tor-73211.herokuapp.com/)
+[https://desolate-tor-73211.herokuapp.com/](https://desolate-tor-73211.herokuapp.com/)
 
 login: admin
 password: 123
